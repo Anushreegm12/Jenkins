@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-repo/python-app.git'
+                git 'https://github.com/Anushreegm12/Jenkins.git'
             }
         }
         stage('Install Dependencies') {
